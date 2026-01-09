@@ -1,4 +1,4 @@
-import { Code2 } from 'lucide-react';
+import { Code2, Wrench } from 'lucide-react';
 
 const experiences = [
   {
@@ -7,6 +7,13 @@ const experiences = [
     company: 'Self-Employed',
     period: 'Present',
     description: 'Working as a freelance web developer, building clean, responsive, and user-friendly web applications for various clients. Continuously learning new technologies and improving my skills through real-world projects.',
+  },
+  {
+    icon: Wrench,
+    title: 'IT Support Technician',
+    company: 'Technical Support',
+    period: 'Previous',
+    description: 'Provided basic technical support for computers, laptops, and peripheral devices. Assisted users with software installation, updates, and basic troubleshooting. Diagnosed and resolved common hardware issues (keyboard, mouse, monitor, printer). Helped set up operating systems and user accounts. Supported basic network connectivity issues (Wi-Fi, LAN). Installed and configured common applications. Performed routine system maintenance and backups. Communicated technical issues clearly to non-technical users.',
   },
 ];
 
