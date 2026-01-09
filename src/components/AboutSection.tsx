@@ -20,9 +20,8 @@ const AboutSection = () => {
           
           <div className="flex-1 text-center md:text-left">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I am a <span className="text-foreground font-medium">Computer Science student</span> with a strong interest in web development. 
-              I am currently building my skills as a <span className="text-primary font-medium">junior web developer</span>, focusing on creating clean, responsive, and user-friendly web applications. 
-              I am eager to learn new technologies and continuously improve my technical abilities.
+              I am a <span className="text-foreground font-medium">Computer Science student</span> with interests in web development and cybersecurity. 
+              I am building practical skills as a <span className="text-primary font-medium">junior web developer</span> while developing a strong foundation in system and application security.
             </p>
             
             <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
