@@ -9,9 +9,9 @@ const projects = [
     image: project1,
   },
   {
-    title: "Chetra's Home Chores",
-    description: 'The First SvelteKit personal project is a web app that helps individuals manage and view their home chores schedule. It integrates with Notion for easy data access and updates.',
-    tags: ['SvelteKit', 'TailwindCSS'],
+    title: 'Coffee Corner',
+    description: 'A web-based ordering interface designed for a coffee shop to manage menu selection and customer billing in a simple and visually friendly way. The system allows users to browse coffee items, select quantities and sizes, and view real-time bill details before completing a transaction. Built as a practice-based front-end application to improve UI design skills, component structuring, and user interaction handling.',
+    tags: ['UI Design', 'Frontend', 'Interactive'],
     image: project2,
   },
 ];
