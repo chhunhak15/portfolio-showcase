@@ -3,9 +3,9 @@ import project2 from '@/assets/project-2.jpg';
 
 const projects = [
   {
-    title: 'CamDL KYC Portal',
-    description: 'CamDL Hybrid Permissioned Blockchain Registration Portal is a cutting-edge platform developed using Next.js and Chakra UI. The project incorporates the utilization of smart contracts written in Solidity.',
-    tags: ['React', 'Next.js', 'Prisma'],
+    title: 'Hak.Store',
+    description: 'A web-based inventory dashboard designed to help small businesses monitor stock availability, service level, and potential revenue loss due to stockouts. The dashboard provides a visual summary of key inventory metrics, allowing users to quickly understand stock performance and make data-driven decisions. Created as a learning-focused implementation to practice dashboard layout design, data visualization concepts, and responsive UI development.',
+    tags: ['Dashboard', 'Data Visualization', 'Responsive UI'],
     image: project1,
   },
   {
