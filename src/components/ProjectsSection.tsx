@@ -48,11 +48,11 @@ const ProjectsSection = () => {
                     ))}
                   </div>
                 </div>
-                <div className="order-1 md:order-2">
+                <div className="order-1 md:order-2 bg-muted/50 flex items-center justify-center">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-64 md:h-full object-cover"
+                    className="w-full h-64 md:h-full object-contain"
                   />
                 </div>
               </div>
