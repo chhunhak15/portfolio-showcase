@@ -22,7 +22,7 @@ const contactLinks = [
   {
     icon: Facebook,
     label: 'Facebook',
-    href: 'https://web.facebook.com/chhun.hak.21/about/?id=100025142822935&sk=about',
+    href: 'https://www.facebook.com/share/1DTweyhJsZ/',
     description: 'facebook.com/chhun.hak.21',
   },
 ];
