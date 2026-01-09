@@ -1,20 +1,13 @@
 const skills = [
-  'Blockchain',
-  'CSS',
-  'Docker',
-  'HTML',
-  'Java',
+  'HTML5',
+  'CSS3',
   'JavaScript',
-  'Kubernetes',
-  'Next.js',
-  'PostgreSQL',
-  'Prisma',
-  'React',
-  'Solidity',
-  'Spring',
-  'SvelteKit',
-  'TailwindCSS',
-  'TypeScript',
+  'Responsive Web Design',
+  'Bootstrap',
+  'Git & GitHub',
+  'Web Structure & Layouts',
+  'Problem Solving',
+  'Logical Thinking',
 ];
 
 const SkillsSection = () => {

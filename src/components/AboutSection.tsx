@@ -20,11 +20,9 @@ const AboutSection = () => {
           
           <div className="flex-1 text-center md:text-left">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I've been working as a <span className="text-foreground font-medium">full-stack developer</span> for 2 years. 
-              During this time, I've worked on various fields such as frontend development with{' '}
-              <span className="text-primary font-medium">NextJS</span> and Angular, backend development with{' '}
-              <span className="text-primary font-medium">Spring</span>, and Blockchain & Smart Contract development with{' '}
-              <span className="text-primary font-medium">Solidity</span>.
+              I am a <span className="text-foreground font-medium">Computer Science student</span> with a strong interest in web development. 
+              I am currently building my skills as a <span className="text-primary font-medium">junior web developer</span>, focusing on creating clean, responsive, and user-friendly web applications. 
+              I am eager to learn new technologies and continuously improve my technical abilities.
             </p>
             
             <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">

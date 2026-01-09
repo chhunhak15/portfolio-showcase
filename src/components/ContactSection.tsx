@@ -31,10 +31,10 @@ const ContactSection = () => {
           <p className="text-muted-foreground">
             Feel free to reach out to me at{' '}
             <a
-              href="mailto:contact@chetraseng.com"
+              href="mailto:chhunhak15@gmail.com"
               className="text-primary hover:underline font-medium"
             >
-              contact@chetraseng.com
+              chhunhak15@gmail.com
             </a>
             {' '}or through the form below.
           </p>
@@ -86,7 +86,7 @@ const ContactSection = () => {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-2 text-muted-foreground text-sm">
             <Mail className="w-4 h-4" />
-            <span>Made with passion by Chetra</span>
+            <span>Made with passion by Chhunhak</span>
           </div>
         </div>
       </div>

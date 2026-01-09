@@ -1,10 +1,9 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import profileAvatar from '@/assets/profile-avatar.jpg';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/chhunhak15/myportfolio-.git', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/rous-chhunhak-18583a36a/', label: 'LinkedIn' },
 ];
 
 const HeroSection = () => {
@@ -17,22 +16,22 @@ const HeroSection = () => {
         <div className="relative inline-block mb-8">
           <img
             src={profileAvatar}
-            alt="Chetra Seng"
+            alt="Ros Chhunhak"
             className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover ring-4 ring-card shadow-card animate-float"
           />
           <span className="absolute -top-2 -right-2 text-3xl">👋🏻</span>
         </div>
         
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">
-          Hi, I'm Chetra.
+          Hi, I'm Ros Chhunhak.
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-4">
-          <span className="font-display italic text-foreground">Full-stack Developer</span>, constantly fueling my passion for learning.
+          <span className="font-display italic text-foreground">Junior Web Developer</span>, passionate about building clean web applications.
         </p>
         
         <p className="text-muted-foreground text-lg mb-10">
-          I'm always on the lookout for new things to try.
+          Eager to learn new technologies and continuously improve.
         </p>
         
         <div className="flex items-center justify-center gap-4">
