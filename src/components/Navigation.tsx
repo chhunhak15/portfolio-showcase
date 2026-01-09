@@ -51,12 +51,14 @@ const Navigation = () => {
       }`}
     >
       <div className="bg-card/90 backdrop-blur-xl rounded-full shadow-nav px-2 py-2 flex items-center gap-1">
-        <div className="relative mx-2">
-          <img
-            src={profileAvatar}
-            alt="Profile"
-            className="w-10 h-10 rounded-full object-cover ring-2 ring-primary/20 transition-transform duration-300 hover:scale-110"
-          />
+        <div className="relative mx-2 flex-shrink-0">
+          <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-primary/20 transition-transform duration-300 hover:scale-110">
+            <img
+              src={profileAvatar}
+              alt="Profile"
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
           <span className="absolute -top-1 -right-1 text-lg">🎀</span>
         </div>
         
