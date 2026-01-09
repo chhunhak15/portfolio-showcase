@@ -1,26 +1,12 @@
-import { Briefcase, GraduationCap, Code2 } from 'lucide-react';
+import { Code2 } from 'lucide-react';
 
 const experiences = [
   {
-    icon: Briefcase,
-    title: 'IT Support',
-    company: 'Metfone Headquarter',
-    period: 'Dec 2020 - Nov 2021',
-    description: 'My first-ever job, both in life and in the tech field, was an invaluable experience for me. It served as a platform where I not only gained knowledge about various job aspects but also honed my programming skills during my free time working there.',
-  },
-  {
-    icon: GraduationCap,
-    title: 'Developer Internship',
-    company: 'Techo Startup Center',
-    period: 'Nov 2021 - Feb 2022',
-    description: 'In my first developer role, I gained comprehensive knowledge and skills through hands-on experience. One notable project was creating a digital signature proof of concept. I developed both the backend and frontend components, refining my skills and gaining practical experience in building secure software.',
-  },
-  {
     icon: Code2,
-    title: 'Full-stack Developer',
-    company: 'Techo Startup Center',
-    period: 'Feb 2022 - Present',
-    description: 'After a successful internship, I landed a full-stack developer job with diverse projects, including government initiatives. This role offered daily real-world challenges that enhanced my skills and knowledge. Working full-time as a developer fueled my professional growth and expertise in the field.',
+    title: 'Freelancer',
+    company: 'Self-Employed',
+    period: 'Present',
+    description: 'Working as a freelance web developer, building clean, responsive, and user-friendly web applications for various clients. Continuously learning new technologies and improving my skills through real-world projects.',
   },
 ];
 
