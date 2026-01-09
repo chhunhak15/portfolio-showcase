@@ -57,7 +57,7 @@ const Navigation = () => {
             alt="Profile"
             className="w-10 h-10 rounded-full object-cover ring-2 ring-primary/20 transition-transform duration-300 hover:scale-110"
           />
-          <span className="absolute -top-1 -right-1 text-lg">👋🏻</span>
+          <span className="absolute -top-1 -right-1 text-lg">🎀</span>
         </div>
         
         <div className="hidden md:flex items-center">
