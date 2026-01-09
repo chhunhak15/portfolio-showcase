@@ -2,7 +2,7 @@ import { Github, Linkedin } from 'lucide-react';
 import profileAvatar from '@/assets/profile-avatar.jpg';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/chhunhak15/myportfolio-.git', label: 'GitHub' },
+  { icon: Github, href: 'https://github.com/chhunhak15', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/rous-chhunhak-18583a36a/', label: 'LinkedIn' },
 ];
 
