@@ -1,4 +1,4 @@
-import { Code2, Wrench } from 'lucide-react';
+import { Code2, Wrench, Shield } from 'lucide-react';
 
 const experiences = [
   {
@@ -7,6 +7,13 @@ const experiences = [
     company: 'Self-Employed',
     period: 'Present',
     description: 'Working as a freelance web developer, building clean, responsive, and user-friendly web applications for various clients. Continuously learning new technologies and improving my skills through real-world projects.',
+  },
+  {
+    icon: Shield,
+    title: 'Cyber Security Enthusiast',
+    company: 'Self-Learning',
+    period: 'Ongoing',
+    description: 'Developing foundational knowledge in cybersecurity principles, network security, and ethical hacking. Learning about vulnerability assessment, security best practices, and threat detection. Exploring tools and techniques for securing systems and protecting data.',
   },
   {
     icon: Wrench,
