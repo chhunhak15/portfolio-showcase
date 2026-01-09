@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Send, Facebook } from 'lucide-react';
+import { Mail, Linkedin, Send } from 'lucide-react';
 
 const contactLinks = [
   {
@@ -18,12 +18,6 @@ const contactLinks = [
     label: 'Telegram',
     href: 'https://t.me/ROS_CHHUNHAK',
     description: '@ROS_CHHUNHAK',
-  },
-  {
-    icon: Facebook,
-    label: 'Facebook',
-    href: 'https://www.facebook.com/share/1DTweyhJsZ/',
-    description: 'facebook.com/chhun.hak.21',
   },
 ];
 
