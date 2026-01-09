@@ -19,7 +19,7 @@ const HeroSection = () => {
             alt="Ros Chhunhak"
             className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover ring-4 ring-card shadow-card animate-float"
           />
-          <span className="absolute -top-2 -right-2 text-3xl">👋🏻</span>
+          <span className="absolute -top-2 -right-2 text-3xl">🎀</span>
         </div>
         
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">
