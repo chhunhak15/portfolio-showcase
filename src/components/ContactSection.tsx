@@ -1,27 +1,21 @@
-import { useState } from 'react';
-import { Mail, Send } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { useToast } from '@/hooks/use-toast';
+import { Mail, Linkedin } from 'lucide-react';
+
+const contactLinks = [
+  {
+    icon: Mail,
+    label: 'Email Me',
+    href: 'mailto:chhunhak15@gmail.com',
+    description: 'chhunhak15@gmail.com',
+  },
+  {
+    icon: Linkedin,
+    label: 'Connect on LinkedIn',
+    href: 'https://www.linkedin.com/in/rous-chhunhak-18583a36a/',
+    description: 'linkedin.com/in/rous-chhunhak',
+  },
+];
 
 const ContactSection = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   return (
     <section id="contact" className="py-20 px-4 pb-32">
       <div className="max-w-xl mx-auto">
@@ -29,59 +23,31 @@ const ContactSection = () => {
         
         <div className="text-center mb-10 opacity-0 animate-fade-in" style={{ animationDelay: '0.1s' }}>
           <p className="text-muted-foreground">
-            Feel free to reach out to me at{' '}
-            <a
-              href="mailto:chhunhak15@gmail.com"
-              className="text-primary hover:underline font-medium"
-            >
-              chhunhak15@gmail.com
-            </a>
-            {' '}or through the form below.
+            Feel free to reach out to me through the links below.
           </p>
         </div>
         
-        <form
-          onSubmit={handleSubmit}
-          className="bg-card rounded-2xl p-8 shadow-card space-y-6 opacity-0 animate-fade-in-up"
-          style={{ animationDelay: '0.2s' }}
-        >
-          <div>
-            <Input
-              placeholder="Your name"
-              value={formData.name}
-              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              required
-              className="bg-background border-border focus:ring-primary"
-            />
-          </div>
-          
-          <div>
-            <Input
-              type="email"
-              placeholder="Your email"
-              value={formData.email}
-              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              required
-              className="bg-background border-border focus:ring-primary"
-            />
-          </div>
-          
-          <div>
-            <Textarea
-              placeholder="Your message"
-              value={formData.message}
-              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-              required
-              rows={5}
-              className="bg-background border-border focus:ring-primary resize-none"
-            />
-          </div>
-          
-          <Button type="submit" className="w-full gap-2">
-            <Send className="w-4 h-4" />
-            Send Message
-          </Button>
-        </form>
+        <div className="grid gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          {contactLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 bg-card rounded-2xl p-6 shadow-card hover:shadow-soft transition-all duration-300 hover:-translate-y-1 group"
+            >
+              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0 group-hover:bg-primary/10 transition-colors">
+                <link.icon className="w-6 h-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-display text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                  {link.label}
+                </h3>
+                <p className="text-muted-foreground text-sm">{link.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
         
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-2 text-muted-foreground text-sm">
