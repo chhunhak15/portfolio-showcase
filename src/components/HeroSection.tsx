@@ -27,11 +27,11 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-4">
-          <span className="font-display italic text-foreground">Computer Science Student</span> with interests in web development and cybersecurity.
+          <span className="font-display italic text-foreground">Junior Web Developer</span>, passionate about building clean web applications.
         </p>
         
         <p className="text-muted-foreground text-lg mb-10">
-          Building practical skills as a junior web developer while developing a strong foundation in system and application security.
+          Eager to learn new technologies and continuously improve.
         </p>
         
         <div className="flex items-center justify-center gap-4">
