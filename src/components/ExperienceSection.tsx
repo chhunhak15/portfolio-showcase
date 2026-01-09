@@ -6,7 +6,7 @@ const experiences = [
     title: 'Freelancer',
     company: 'Self-Employed',
     period: 'Present',
-    description: 'Working as a freelance web developer, building clean, responsive, and user-friendly web applications for various clients. Continuously learning new technologies and improving my skills through real-world projects.',
+    description: 'Designed and developed simple, responsive web pages using HTML, CSS, and JavaScript. Implemented user interface components based on design mockups. Used Bootstrap to create responsive layouts and improve UI consistency. Worked with basic JavaScript logic for interactivity and form handling. Organized project files and followed clean code practices. Tested websites across different screen sizes and browsers. Fixed layout and styling issues during development. Continuously improved web development skills through practice and learning.',
   },
   {
     icon: Shield,
